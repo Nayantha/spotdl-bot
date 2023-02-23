@@ -7,7 +7,7 @@ from spotdl_bot import upload_files_in_a_folder_to_bot_bot_input
 from spotify_api import get_name_from_link
 
 if __name__ == '__main__':
-    os.system("npm install -g spotify-dl")
+    # os.system("npm install -g spotify-dl")
     
     bot_name: str = ""
     bot_token = os.getenv("BOT_TOKEN")
